@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
-    *main -- Entry point. It also where variables, instructions  and the likes are issued out
-    *return -- if return is 0 (success executing the code) if o  therwise its a failure
+ *main - Entry point 
+ *return : 0 (success), otherwise (failure)
 */
 
 int main(void)
 {
    
-    puts("%s \n"Programming is like building a multilingual puz    zle \n);
+    puts("\"Programming is like building a multilingual puzzle"     );
     return (0);
-};
+    
+}    
