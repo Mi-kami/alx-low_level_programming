@@ -1,12 +1,13 @@
 #include<stdio.h>
 
 /**
- *main - prints the 
+ *main - Entry point
  *Return: Always 0 (success)
  *size of evaluates the size of variables
 */
+
 int main(void)
-{  
+{
 printf("Size of a char: %zu byte(s)\n", sizeof(char));
 printf("Size of an int: %zu byte(s)\n", sizeof(int));
 printf("size of a long int: %zu byte(s)\n", sizeof(long int));
