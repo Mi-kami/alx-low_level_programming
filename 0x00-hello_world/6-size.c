@@ -8,15 +8,15 @@
 
 int main(void)
 {
-char charType;
-int intType;
-float floatType;
-long int longType;
- 
-printf("Size of a char: %zu byte(s)\n", sizeof(charType));
-printf("Size of an int: %zu byte(s)\n", sizeof(intType));
-printf("size of a long int: %zu byte(s)\n", sizeof(longinttype));
-printf("size of a long long int: %zu byte(s)\n", sizeof(longlonginttype));
-printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
+char a;
+int b;
+long int c;
+long long int d;
+float f;
+printf("Size of a char: %zu byte(s)\n", sizeof(a));
+printf("Size of an int: %zu byte(s)\n", sizeof(b));
+printf("size of a long int: %zu byte(s)\n", sizeof(c));
+printf("size of a long long int: %zu byte(s)\n", sizeof(d));
+printf("Size of a float: %zu byte(s)\n", sizeof(f));
 return (0);
 }
