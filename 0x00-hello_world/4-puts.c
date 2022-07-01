@@ -1,2 +1,2 @@
 #!/bin/bash
-puts("Programming is like building a multilingual puzzle \n");
+puts( "%s \n"Programming is like building a multilingual puzzle );
