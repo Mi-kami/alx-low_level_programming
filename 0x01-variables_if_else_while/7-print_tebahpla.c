@@ -8,10 +8,12 @@
 
 int main(void)
 {
-char i;
-for (i = 'z' ; i >= 'a'; i--)
+char alpha = 'z';
+while (alpha >= 'a')
 {
-printf("%c", i);
+putchar(alpha);
+alpha--;
 }
+putchar('\n')
 return (0);
 }
