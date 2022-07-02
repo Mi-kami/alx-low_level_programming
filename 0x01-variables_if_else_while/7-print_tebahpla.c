@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  *main - print alphabet reversed using putchar
@@ -14,6 +13,6 @@ while (alpha >= 'a')
 putchar(alpha);
 alpha--;
 }
-putchar('\n')
+ putchar('\n');
 return (0);
 }
