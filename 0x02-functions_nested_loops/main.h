@@ -36,3 +36,9 @@ int _isalpha(int c);
  *a function that prints the sign of a number.
 */
 int print_sign(int n);
+
+
+/**
+ *a function that computes the absolute value of an integer.
+*/
+int _abs(int);
