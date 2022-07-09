@@ -7,8 +7,7 @@
 
 void print_diagonal(int n)
 {
-int x;
-int i;
+int x, i;
 
 if (n <= 0)
 _putchar('\n');
@@ -21,8 +20,5 @@ _putchar(' ');
 _putchar(92);
 _putchar('\n');
 }
-_putchar('\n');
 }
 }
-
-
