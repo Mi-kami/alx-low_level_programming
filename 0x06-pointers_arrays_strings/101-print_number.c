@@ -1,11 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-
 
 /**
- * print_number - print an integer, without using long, arrays, or pointers
+ * print_number - print an integer
  * @n: number to be printed
  */
 
