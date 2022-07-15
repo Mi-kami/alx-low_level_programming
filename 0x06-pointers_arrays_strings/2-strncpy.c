@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strncpy - copies n bytes of a source into buffer of a destination string,
