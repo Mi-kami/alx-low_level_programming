@@ -20,6 +20,6 @@ printf("%d", va_arg(num, int));
 if (i < (n - 1) && *separator != '\0')
 printf("%c ", *separator);
 }
-printf("\n");
+putchar('\n');
 va_end(num);
 }
