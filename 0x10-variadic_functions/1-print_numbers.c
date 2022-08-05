@@ -7,19 +7,23 @@
  *@separator:string to be printed between numbers
  *
  *@n: amount of arguments in list
+ *Return: Nothing (success)
 */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
+va_list valist;
 unsigned int i;
-va_list num;
-va_start(num, n);
-for (i = 0; i < n; i++)
+if (n > 0)
 {
-printf("%d", va_arg(num, int));
-if (i < (n - 1) && *separator != '\0')
-printf("%c ", *separator);
+va_start(valist, n);
+for (i = 1; i <= n; i++)
+{
+printf("%d", va_arg(valist, int));
+if (i != n && separator != NULL)
+printf("%s", separator);
 }
-putchar('\n');
-va_end(num);
+va_end(valist);
+}
+printf("\n");
 }
